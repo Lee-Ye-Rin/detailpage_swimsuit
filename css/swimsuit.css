@@ -16,7 +16,7 @@ body{
 
 .main{
   float: left;
-  padding: 20px 20px 20px 0;
+  padding: 20px 35px 20px 0;
 }
 
 .product{
@@ -26,7 +26,6 @@ body{
 
 .product_in h2{
   padding-bottom: 45px;
-  background: url(../images/44_120.png) no-repeat 170px 3px;
 }
 
 .product_in p{
@@ -83,29 +82,9 @@ td{
   margin-bottom: 100px;
 }
 
-.color .black{
+.color .skyblue{
   display: inline-block;
-  background-color: #000;
-  border: 1.5px solid #333;
-  width: 55px;
-  height: 30px;
-  border-radius: 10px;
-  
-}
-
-.color .white{
-  display: inline-block;
-  background-color: #fff;
-  border: 1.5px solid #333;
-  width: 55px;
-  height: 30px;
-  border-radius: 10px;
-  
-}
-
-.color .lemon{
-  display: inline-block;
-  background-color: #e3d978;
+  background-color: #9ab6c1;
   border: 1.5px solid #333;
   width: 55px;
   height: 30px;
@@ -132,6 +111,7 @@ td{
 
 .benefit{
   margin: auto;
+  padding: 115px 0;
   width: 1225px;
   clear: both;
 }
@@ -191,14 +171,24 @@ td{
   color: #42baf1;
 }
 
+.department{
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.department img{
+  margin: 115px 0;
+}
+
 .logo{
-  width: 1225px;
+  width: 1000px;
   margin: auto;
   text-align: center;
 }
 
 .logo img{
-  margin: 40px 0;
+  margin: 115px 0;
 }
 
 .in1{
