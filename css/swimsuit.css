@@ -26,6 +26,7 @@ body{
 
 .product_in h2{
   padding-bottom: 45px;
+  background: url(../images/44_120.png) no-repeat 170px 3px;
 }
 
 .product_in p{
@@ -49,14 +50,17 @@ body{
   font-weight: 500;
   font-size: 15px;
   border: 1.5px solid #333;
-  padding: 3px 3px;
+  padding: 5px 10px;
   border-radius: 10px;
   margin-left: 15px;
-  display: inline-block;
+  display: block;
+  float: left;
+  margin-right: 150px;
+  margin-top: -5px;
 }
 
 .price a:hover{
-  background-color: #333;
+  background-color: #77bbcc;
   color: #fff;
 }
 
@@ -82,9 +86,29 @@ td{
   margin-bottom: 100px;
 }
 
-.color .skyblue{
+.color .black{
   display: inline-block;
-  background-color: #9ab6c1;
+  background-color: #000;
+  border: 1.5px solid #333;
+  width: 55px;
+  height: 30px;
+  border-radius: 10px;
+  
+}
+
+.color .white{
+  display: inline-block;
+  background-color: #fff;
+  border: 1.5px solid #333;
+  width: 55px;
+  height: 30px;
+  border-radius: 10px;
+  
+}
+
+.color .lemon{
+  display: inline-block;
+  background-color: #e3d978;
   border: 1.5px solid #333;
   width: 55px;
   height: 30px;
